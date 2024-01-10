@@ -17,7 +17,7 @@ body {
 /* Header Styling */
 header {
     background-color: #264653; /* Dark cyan */
-    color: #fff;
+    color: white;
     padding: 1rem 0;
     text-align: center;
 }
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -58,8 +58,8 @@ main > section {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* My Journey Section */
-#index .my-journey p {
+/* Individual Paragraphs Styling for 'index.html' and 'education.html' */
+.index-main p, .education-page p {
     background: #e9f5f2; /* Light cyan background */
     padding: 15px;
     margin-bottom: 15px;
@@ -67,18 +67,9 @@ main > section {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Education Page */
-.education-page section p {
-    background: #f4ecec; /* Light red background */
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* GitHub Link Box */
-.github-link {
-    background: #5dc7eb; /* Very light blue */
+/* GitHub Link Box on 'projects.html' */
+.projects-page .github-link {
+    background: #ebfaff; /* Very light blue */
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -89,7 +80,7 @@ main > section {
 /* Footer Styling */
 footer {
     background-color: #264653; /* Consistent with header */
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 1rem 0;
     position: relative;
